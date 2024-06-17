@@ -1,224 +1,100 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+    "gp_global_section_517663395751658656_paFRyj": {
+      "type": "gp-global-section-517663395751658656",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cory_Matthew-92_websize.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "section_preload": "true",
+        "gg_R4NjbV5d_text": "<p>INTIMATE WEDDING &amp; ELOPEMENT PACKAGES IN PARIS<\/p>",
+        "ggMm4M2acry_text": "Say I Do ",
+        "ggDXj5Pgt2T_text": "in the City of Love",
+        "ggM52_fCdiE_text": "<p>Experience your perfect Paris wedding or elopement—without any planning stress. <\/p>",
+        "ggqzYBpg3xW_childItem_0": "<p>INTRIGUED? STEP THIS WAY <\/p>"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+    "gp_global_section_517669509503386504_6tEbHa": {
+      "type": "gp-global-section-517669509503386504",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "section_preload": "true",
+        "ggw38edn_78_text": "<p>Joyfully celebrating <br>amour since 2014<\/p>",
+        "ggPxYVoM-pk_text": "<p>Planned over 375<br>Paris weddings<\/p>",
+        "gg7rVhkj7Bc_text": "<p>English-speaking <br>Paris based team<\/p>",
+        "ggpejrBmNjD_text": "<p>18 ceremony <br>venues across Paris<\/p>"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "gp_global_section_517685778352964683_DABEdW": {
+      "type": "gp-global-section-517685778352964683",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "section_preload": "true",
+        "ggObwB5SISc_text": "<p>\"Our Paris wedding was more than I could have ever imagined. It was fun, romantic, spine-tingling, beautiful and just dreamy.\"<\/p>",
+        "ggZLafnZDvn_text": "<p>And the organization was superb and ran like clockwork. We have memories that will last forever.<\/p>",
+        "gggDjX2vUCI_childItem_0": "<p>Helen Daly, 2022, Google review<\/p>"
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
+    "gp_global_section_517699844890952867_wkizin": {
+      "type": "gp-global-section-517699844890952867",
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_preload": "true",
+        "ggDIE3ASemI_text": "That daydream you have about eloping or having an intimate wedding in Paris?",
+        "ggSCJXvg39-_text": "Lets make it happen",
+        "gg6b9dNL3ta_text": "<p>To get <i><strong>married in Paris<\/strong><\/i> is to celebrate your love in one of the most romantic and beautiful places in the world. But planning a wedding from overseas can feel overwhelming when you don’t know the city, the best vendors or speak French.<br><br>Our all-inclusive <span style=\"color:#F39A8B;\"><strong>Paris wedding package<\/strong><\/span>, with its stress-free planning experience, means you and your partner will arrive ready and relaxed to enjoy your day.<\/p>"
       }
     },
-    "video": {
-      "type": "video",
+    "gp_global_section_517767606858417227_eNx6KQ": {
+      "type": "gp-global-section-517767606858417227",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_preload": "true",
+        "ggb4m3oY5yk_text": "What we offer",
+        "gg3lwGnJvYv_text": "All-inclusive, customisable wedding packages &amp; vow renewals in Paris",
+        "ggMBea-zSeb_text": "<p>Perfect for couples seeking to elope or experience <br>an intimate wedding ceremony with less than 15 guests. <\/p>",
+        "ggNWXQm3D3I_text": "PARIS WEDDING DAY PACKAGE",
+        "ggAVH7LdmLy_text": "3425 Euros incl taxes",
+        "gggNk7hMEQD_text": "<p>Professional Photographer + 2-hour photo tour<br>Personal wedding planner<br>Outdoor symbolic wedding ceremony<br>English-speaking officiant<br>Luxury car and chauffeur<br>Bride’s hair and make-up<br>Wedding bouquet and boutonniere<br>Commemorative certificate<br>Day-of coordinator (remote)<br>Restaurant reservation<\/p>",
+        "ggMC2htiR9o_label": "OUI! WE WANT TO GET MARRIED IN PARIS",
+        "ggWVbfG4N6L_text": "PARIS VOW RENEWAL PACKAGE",
+        "ggo5nhv2hRX_text": "3425 Euros incl taxes",
+        "ggJqfVbyDU5_text": "<p>Professional Photographer + 2-hour photo tour<br>Personal wedding planner<br>Outdoor symbolic wedding ceremony<br>English-speaking officiant<br>Luxury car and chauffeur<br>Bride’s hair and make-up<br>Wedding bouquet and boutonniere<br>Commemorative certificate<br>Day-of coordinator (remote)<br>Restaurant reservation<\/p>",
+        "gg7mjB8pf1F_label": "OUI! WE WANT TO GET MARRIED IN PARIS"
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+    "gp_global_section_518619096003118155_86khEn": {
+      "type": "gp-global-section-518619096003118155",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_preload": "true",
+        "ggI61UaVWor_text": "Optional  Wedding Extras",
+        "ggr3V0sd1NL_text": "Enjoy the flexibility to make your wedding day truly <i>yours<\/i>...",
+        "ggF43pgWLJN_text": "<p>Our wedding package provides everything you need for a perfect day but you can still personalize it to suit your style. Enjoy choosing from a range of add-ons and upgrades from videography, beauty, luxury cars, live music, indoor venues, flowers and wedding cakes.<\/p>",
+        "ggC8mi9Vssw_label": "Visit the Wedding Shop"
+      }
+    },
+    "gp_global_section_518624049979458635_BXFktV": {
+      "type": "gp-global-section-518624049979458635",
+      "settings": {
+        "section_preload": "true",
+        "ggXDEvypv85_text": "<p>Claire Bay - Founder<\/p>",
+        "ggIPqLW0MQX_text": "Its Time we met",
+        "ggFCGn8CIlZ_text": "MEET YOUR PERFECT PARIS WEDDING TEAM",
+        "ggfI4ZI42Ga_text": "<p>We’re wedding planners, officiants, photographers, chauffeurs, florists, hairdressers, make-up artists, videographers and musicians with years of industry experience and an intimate, locals knowledge of Paris.<\/p><p> <\/p><p>We’re fueled by good coffee and a shared passion for helping couples like you have an unforgettable and unique wedding day in our beloved city, Paris.<\/p>",
+        "gg5jVAlMTzs_label": "Meet the whole team"
+      }
+    },
+    "gp_global_section_518631146792157990_NkkMzW": {
+      "type": "gp-global-section-518631146792157990",
+      "settings": {
+        "section_preload": "true",
+        "ggHt3GfzjaY_text": "<p>\"My husband and I had the best day of our lives on our wedding day. The entire planning process from the beginning was easy and Claire was a pleasure to deal with..\"<\/p>",
+        "ggQOOLqkC1v_text": "<p>\"Claire found us an intimate spot for our ceremony overlooking the Eiffel Tower. We felt like we’d known Claire and Julien, the photographer, for years. We had lots of laughs and a few tears (happy ones). The photo shoot was amazing, like a private tour of Paris. We had the most magical day.”<\/p>",
+        "ggk3PEd4X4i_text": "<p><span style=\"color:#000000;\"><strong>Katherine Thompson<\/strong><\/span> - 2023, Google Review<\/p>"
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "gp_global_section_517663395751658656_paFRyj",
+    "gp_global_section_517669509503386504_6tEbHa",
+    "gp_global_section_517685778352964683_DABEdW",
+    "gp_global_section_517699844890952867_wkizin",
+    "gp_global_section_517767606858417227_eNx6KQ",
+    "gp_global_section_518619096003118155_86khEn",
+    "gp_global_section_518624049979458635_BXFktV",
+    "gp_global_section_518631146792157990_NkkMzW"
   ]
 }

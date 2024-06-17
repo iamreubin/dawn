@@ -238,6 +238,12 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   background-color: rgba(var(--color-foreground), 0.2);
 }
 
+@font-face {
+font-family: 'goldenplains';
+src: url('https://cdn.shopify.com/s/files/1/0860/4660/5633/files/goldenplains-webfont.woff2') format('woff2'),
+url('https://cdn.shopify.com/s/files/1/0860/4660/5633/files/goldenplains-webfont.woff') format('woff');
+}
+
 .text-body {
   font-size: 1.5rem;
   letter-spacing: 0.06rem;

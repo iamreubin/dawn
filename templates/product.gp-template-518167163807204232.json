@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "gp_section_518167378371019656": {
+      "type": "gp-section-518167378371019656",
+      "settings": {
+        "section_preload": "true",
+        "ggV3qMIKJdI_text": "Book your all inclusive",
+        "gg4ka7jOxQS_text": "Paris wedding package",
+        "ggVgs3Du_re_text": "<p>Leave the planning to us. <br>Simply show up and enjoy your wedding day.<\/p>"
+      }
+    },
+    "gp_section_518191957680325512": {
+      "type": "gp-section-518191957680325512",
+      "settings": {
+        "section_preload": "false",
+        "ggSaeFb7uGn_text": "Destination <br>Weddings in Paris",
+        "ggpmLTQe2y9_text": "Intimate<br>Weddings",
+        "ggsTKfHyhq7_text": "Elopements"
+      }
+    },
+    "gp_section_518193420334793510": {
+      "type": "gp-section-518193420334793510",
+      "settings": {
+        "section_preload": "false",
+        "ggf-RgtBkGf_text": "Enjoy a romantic Paris wedding in one easy package with minimal planning",
+        "ggv_kmA66aB_text": "<p>With a decade of experience planning intimate elopements, our all-inclusive Paris wedding package provides you with everything you need for your special day in just one click. Effortlessly personalize it with a range of optional add-ons and upgrades to suit your tastes.<\/p>",
+        "ggiWnrWGIVN_text": "<p>*English-speaking<\/p>",
+        "ggHjqR8JiU__label": "Add to cart",
+        "ggHjqR8JiU__outOfStockLabel": "Out of stock",
+        "gguS6iS43cX_label": "Reserve your date for 48hrs at no cost"
+      }
+    },
+    "gp_section_518246625970226056": {
+      "type": "gp-section-518246625970226056",
+      "settings": {
+        "section_preload": "false",
+        "ggW1X6nWl1n_successMessage": "Thanks for contacting us. We'll get back to you as soon as possible.",
+        "ggW1X6nWl1n_errorMessage": "Can’t send email. Please try again later.",
+        "ggUEhuqvUwy_placeholder": "Name",
+        "ggSoK0XB1_O_placeholder": "Email",
+        "ggVcS3FTzTY_placeholder": "Wedding Date (e.g. 27 March 2026)",
+        "gg2TJ_m-xVj_placeholder": "Comments - Please leave us with us much information regarding your requestedPerfect Paris Wedding day",
+        "gg13wmCkEt0_label": "Send reservation request"
+      }
+    },
+    "gp_section_518242934563275939": {
+      "type": "gp-section-518242934563275939",
+      "settings": {
+        "section_preload": "false",
+        "ggiAtNMFewH_text": "<p>\"The hair &amp; and make-up team, the flowers, the driver, the car, the wine, the officiant, the photographer, the park, the ducks who cheered us on and the Eiffel Tower in the background were the combination for an amazing and unforgettable day.\"<\/p>",
+        "ggbzYsccvi1_text": "<p>The driver even helped with doing a Facebook Live so our US family could watch at 3am in the morning and we were able to dance to our wedding song. It was  very relaxing, enjoyable and stress-free the way a wedding should be for a couple.<\/p>",
+        "gg1gYzR8nP8_text": "<p>Dolly Hollingsworth, 2023, Google review<\/p>"
+      }
+    },
+    "gp_section_518249787502363723": {
+      "type": "gp-section-518249787502363723",
+      "settings": {
+        "section_preload": "false",
+        "ggWYj2pknRb_text": "Your Package Details",
+        "gg09asBOnoN_text": "Explore exactly what’s included in your Paris wedding day package:"
+      }
+    },
+    "multicolumn_kCzbET": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_znGDMC": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>{{ product.metafields.custom.personal_wedding_planner | metafield_tag }}<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jLmjFU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_znGDMC",
+        "column_jLmjFU"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "gp_section_518167378371019656",
+    "gp_section_518191957680325512",
+    "gp_section_518193420334793510",
+    "gp_section_518246625970226056",
+    "gp_section_518242934563275939",
+    "gp_section_518249787502363723",
+    "multicolumn_kCzbET"
+  ]
+}

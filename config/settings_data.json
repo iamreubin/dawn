@@ -2,17 +2,17 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/perfect-paris-wedding-horizontal-full-color-rgb.png",
     "logo_width": 220,
-    "type_header_font": "assistant_n4",
+    "type_header_font": "lato_n4",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "lato_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -26,7 +26,7 @@
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 40,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -135,6 +135,42 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "9278379683843197553": {
+        "type": "shopify:\/\/apps\/app-ointo\/blocks\/app-embed\/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7385302900728337613": {
+        "type": "shopify:\/\/apps\/depo\/blocks\/app-embed\/fa2b6a7a-29ea-4193-bcc4-3ecc583efe2e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "13856562633712291205": {
+        "type": "shopify:\/\/apps\/downpay\/blocks\/downpay-cart-embed\/da700d84-7ed1-410a-a8b5-5cb99a33758a",
+        "disabled": false,
+        "settings": {
+          "show_currency_code": true,
+          "amount_due_today_label": "",
+          "amount_due_later_label": "",
+          "insert_area": "",
+          "insert_position": "afterend",
+          "custom_css": ""
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15659862187755629035": {
+        "type": "shopify:\/\/apps\/bookeasy\/blocks\/app-embed\/865cd10f-9515-4d8b-8e41-efece9c83f71",
+        "disabled": true,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
@@ -151,7 +187,7 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#fafafa",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
@@ -380,5 +416,14 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".image-with-text__media.image-with-text__media--adapt {padding-bottom: 0 !important; width: 400px; height: 400px; border-radius: 50%; display: inline-block; vertical-align: middle;}",
+      ".image-with-text__text--caption {font-family: goldenplains; font-size: 4.2rem; line-height: 60%; color: #f49f8f;}",
+      "#appointo-btn {background-color: #f49f8f; border-radius: 50px; color: #ffff !important; padding: 1.5rem 3rem; transition: all 1s ease;}",
+      "#appointo-btn::hover {cursor: pointer; background-color: #a5d7d4;}",
+      "@media only screen and (max-width: 749px) {.header__heading-link {padding-right: 0; }}"
+    ]
   }
 }

@@ -2,46 +2,80 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "gp_global_section_517806329092375334_bpGkjg": {
+      "type": "gp-global-section-517806329092375334",
+      "settings": {
+        "section_preload": "true",
+        "ggX1EOke5gq_text": "Making it easy to get married in Paris since 2014",
+        "ggYGMt0Xjrh_text": "<p><span style=\"background-color:rgb(250,250,250);color:rgb(77,77,77);font-size:17px;\">Perfect Paris Wedding plans intimate destination weddings and elopements for couples seeking a romantic, joyful wedding day in the City of Love—without the stress of planning it.<\/span><\/p>",
+        "ggyLCPZagVC_text": "Company",
+        "ggStNaYo80y_text": "<p><a href=\"#\">About Us<\/a><\/p>",
+        "gg9tci5rlFs_text": "<p><a href=\"#\">FAQ<\/a><\/p>",
+        "ggScgWYKc89_text": "<p><a href=\"#\">Privacy Policy<\/a><\/p>",
+        "gg0f7jDgkg3_text": "<p><a href=\"#\">Terms &amp; Conditions<\/a><\/p>",
+        "ggvlzSOpnVg_text": "Packages &amp; Pricing",
+        "ggfO8nbZoil_text": "<p>Paris Wedding Package<\/p>",
+        "gg7egPBI-wa_text": "<p>Paris Vow Renewal<\/p>",
+        "gg9ULlKtyTe_text": "<p>Plan Your Paris Elopement<\/p>",
+        "gg3R9zXo04h_text": "<p>Wedding Ceremony Locations<\/p>",
+        "gga6nYyzBZb_text": "<p>Paris Wedding Photo Tour<\/p>",
+        "ggu1AQOanBn_text": "Stay in Touch",
+        "ggLISkqIx7O_text": "<p>Subscribe to our emails<\/p>",
+        "ggsrZ4vp23f_successMessage": "Thanks for contacting us. We'll get back to you as soon as possible.",
+        "ggsrZ4vp23f_errorMessage": "Can’t send email. Please try again later.",
+        "ggm3y9W8LSH_placeholder": "Enter your email",
+        "ggXYIAw7w91_text": "Resources",
+        "ggVzYoHwzEO_text": "<p>Blog<\/p>",
+        "ggHVvFSaoF0_text": "<p>User FAQs<\/p>",
+        "ggUrNntXUP8_text": "<p>Guides<\/p>",
+        "gg3_iB5aBXX_text": "<p>Copyright © 2022 GemThemes. All Rights Reserved.<\/p>",
+        "ggP4bv6DqFL_text": "<p>© 2024 - Une Belle Cérémonie SAS - All rights reserved.  <a href=\"#\"><u>Sitemap<\/u><\/a>.<\/p>"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_jcLVzT": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "alignment": "center"
-          }
-        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "<strong>Packages  & Pricing<\/strong>",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "<strong>Quick Links<\/strong>",
             "menu": "footer"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "link_list_mBiJ3w": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "<strong>Company<\/strong>",
+            "menu": "footer"
+          }
+        },
+        "link_list_fM8Ndy": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Resources<\/strong>",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
-        "image_jcLVzT",
         "footer-0",
         "footer-1",
-        "footer-2"
+        "link_list_mBiJ3w",
+        "link_list_fM8Ndy"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".footer__content-bottom {border-top: none !important;}"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
@@ -57,6 +91,7 @@
     }
   },
   "order": [
+    "gp_global_section_517806329092375334_bpGkjg",
     "footer"
   ]
 }
