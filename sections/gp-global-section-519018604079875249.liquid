@@ -1,0 +1,400 @@
+
+{% render 'gp-head', 'isThemeSection: true' %}
+<style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-519018604079875249.gps.gpsil [style*="--aspect:"]{aspect-ratio:var(--aspect)}.gps-519018604079875249.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-519018604079875249.gps.gpsil [style*="--hvr-bg:"]:hover{background:var(--hvr-bg)}.gps-519018604079875249.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-519018604079875249.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-519018604079875249.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-519018604079875249.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-519018604079875249.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-519018604079875249.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-519018604079875249.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-519018604079875249.gps.gpsil [style*="--hvr-b:"]:hover{border:var(--hvr-b)}.gps-519018604079875249.gps.gpsil [style*="--bb:"]{border-bottom:var(--bb)}.gps-519018604079875249.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-519018604079875249.gps.gpsil [style*="--bblr:"]{border-bottom-left-radius:var(--bblr)}.gps-519018604079875249.gps.gpsil [style*="--bbrr:"]{border-bottom-right-radius:var(--bbrr)}.gps-519018604079875249.gps.gpsil [style*="--radius:"]{border-radius:var(--radius)}.gps-519018604079875249.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-519018604079875249.gps.gpsil [style*="--bt:"]{border-top:var(--bt)}.gps-519018604079875249.gps.gpsil [style*="--btlr:"]{border-top-left-radius:var(--btlr)}.gps-519018604079875249.gps.gpsil [style*="--btrr:"]{border-top-right-radius:var(--btrr)}.gps-519018604079875249.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-519018604079875249.gps.gpsil [style*="--bottom:"]{bottom:var(--bottom)}.gps-519018604079875249.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-519018604079875249.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-519018604079875249.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-519018604079875249.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-519018604079875249.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-519018604079875249.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-519018604079875249.gps.gpsil [style*="--fs:"]{font-style:var(--fs)}.gps-519018604079875249.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-519018604079875249.gps.gpsil [style*="--h:"]{height:var(--h)}.gps-519018604079875249.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-519018604079875249.gps.gpsil [style*="--lh:"]{line-height:var(--lh)}.gps-519018604079875249.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-519018604079875249.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-519018604079875249.gps.gpsil [style*="--ml:"]{margin-left:var(--ml)}.gps-519018604079875249.gps.gpsil [style*="--objf:"]{-o-object-fit:var(--objf);object-fit:var(--objf)}.gps-519018604079875249.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-519018604079875249.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-519018604079875249.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-519018604079875249.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-519018604079875249.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-519018604079875249.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-519018604079875249.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-519018604079875249.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-519018604079875249.gps.gpsil [style*="--pos:"]{position:var(--pos)}.gps-519018604079875249.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-519018604079875249.gps.gpsil [style*="--tt:"]{text-transform:var(--tt)}.gps-519018604079875249.gps.gpsil [style*="--top:"]{top:var(--top)}.gps-519018604079875249.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-519018604079875249.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-519018604079875249.gps.gpsil [style*="--line-clamp:"]{-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp);display:-webkit-box;overflow:hidden}@media only screen and (max-width:1023px){.gps-519018604079875249.gps.gpsil [style*="--aspect-tablet:"]{aspect-ratio:var(--aspect-tablet)}.gps-519018604079875249.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-519018604079875249.gps.gpsil [style*="--h-tablet:"]{height:var(--h-tablet)}.gps-519018604079875249.gps.gpsil [style*="--lh-tablet:"]{line-height:var(--lh-tablet)}.gps-519018604079875249.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-519018604079875249.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-519018604079875249.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-519018604079875249.gps.gpsil [style*="--line-clamp-tablet:"]{-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet);display:-webkit-box;overflow:hidden}}@media only screen and (max-width:767px){.gps-519018604079875249.gps.gpsil [style*="--aspect-mobile:"]{aspect-ratio:var(--aspect-mobile)}.gps-519018604079875249.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-519018604079875249.gps.gpsil [style*="--gtc-mobile:"]{grid-template-columns:var(--gtc-mobile)}.gps-519018604079875249.gps.gpsil [style*="--h-mobile:"]{height:var(--h-mobile)}.gps-519018604079875249.gps.gpsil [style*="--lh-mobile:"]{line-height:var(--lh-mobile)}.gps-519018604079875249.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-519018604079875249.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-519018604079875249.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-519018604079875249.gps.gpsil [style*="--line-clamp-mobile:"]{-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile);display:-webkit-box;overflow:hidden}}.gps-519018604079875249 .gp-g-paragraph-1{font-family:var(--g-p1-ff);font-size:var(--g-p1-size);font-style:var(--g-p1-fs);font-weight:var(--g-p1-weight);letter-spacing:var(--g-p1-ls);line-height:var(--g-p1-lh)}.gps-519018604079875249 .gp-invisible{visibility:hidden}.gps-519018604079875249 .gp-absolute{position:absolute}.gps-519018604079875249 .gp-relative{position:relative}.gps-519018604079875249 .gp-z-1{z-index:1}.gps-519018604079875249 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-519018604079875249 .gp-mb-0{margin-bottom:0}.gps-519018604079875249 .\!gp-inline{display:inline!important}.gps-519018604079875249 .gp-flex{display:flex}.gps-519018604079875249 .gp-inline-flex{display:inline-flex}.gps-519018604079875249 .gp-grid{display:grid}.gps-519018604079875249 .\!gp-hidden{display:none!important}.gps-519018604079875249 .gp-hidden{display:none}.gps-519018604079875249 .gp-h-5{height:20px}.gps-519018604079875249 .gp-h-full{height:100%}.gps-519018604079875249 .gp-w-5{width:20px}.gps-519018604079875249 .gp-w-full{width:100%}.gps-519018604079875249 .gp-max-w-full{max-width:100%}.gps-519018604079875249 .gp-shrink-0{flex-shrink:0}.gps-519018604079875249 .gp-flex-row-reverse{flex-direction:row-reverse}.gps-519018604079875249 .gp-flex-col{flex-direction:column}.gps-519018604079875249 .gp-items-center{align-items:center}.gps-519018604079875249 .gp-justify-center{justify-content:center}.gps-519018604079875249 .gp-gap-y-0{row-gap:0}.gps-519018604079875249 .gp-overflow-hidden{overflow:hidden}.gps-519018604079875249 .gp-break-words{overflow-wrap:break-word}.gps-519018604079875249 .gp-rounded-none{border-radius:0}.gps-519018604079875249 .gp-text-g-text-3{color:var(--g-c-text-3)}.gps-519018604079875249 .gp-no-underline{text-decoration-line:none}.gps-519018604079875249 .gp-opacity-25{opacity:.25}.gps-519018604079875249 .gp-opacity-75{opacity:.75}.gps-519018604079875249 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-519018604079875249 .gp-duration-200{transition-duration:.2s}.gps-519018604079875249 .gp-duration-300{transition-duration:.3s}.gps-519018604079875249 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-519018604079875249 .disabled\:gp-btn-disabled:disabled{cursor:default}.gps-519018604079875249 .disabled\:gp-pointer-events-none:disabled{pointer-events:none}.gps-519018604079875249 .disabled\:gp-opacity-30:disabled{opacity:.3}.gps-519018604079875249 .gp-group[data-state=loading] .group-data-\[state\=loading\]\:gp-visible{visibility:visible}.gps-519018604079875249 .gp-group[data-state=loading] .group-data-\[state\=loading\]\:gp-invisible{visibility:hidden}@keyframes gp-spin{to{transform:rotate(1turn)}}.gps-519018604079875249 .gp-group[data-state=loading] .group-data-\[state\=loading\]\:gp-animate-spin{animation:gp-spin 1s linear infinite}@media (max-width:1023px){.gps-519018604079875249 .tablet\:\!gp-hidden{display:none!important}.gps-519018604079875249 .tablet\:gp-hidden{display:none}}@media (max-width:767px){.gps-519018604079875249 .mobile\:\!gp-hidden{display:none!important}.gps-519018604079875249 .mobile\:gp-hidden{display:none}}.gps-519018604079875249 .\[\&\>svg\]\:\!gp-h-\[var\(--height-desktop\)\]>svg{height:var(--height-desktop)!important}.gps-519018604079875249 .\[\&\>svg\]\:\!gp-w-auto>svg{width:auto!important}@media (max-width:1023px){.gps-519018604079875249 .tablet\:\[\&\>svg\]\:\!gp-h-\[var\(--height-tablet\)\]>svg{height:var(--height-tablet)!important}}@media (max-width:767px){.gps-519018604079875249 .mobile\:\[\&\>svg\]\:\!gp-h-\[var\(--height-mobile\)\]>svg{height:var(--height-mobile)!important}}.gps-519018604079875249 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}.gps-519018604079875249 .\[\&_p\]\:gp-inline p{display:inline}.gps-519018604079875249 .\[\&_p\]\:gp-whitespace-pre-line p{white-space:pre-line}.gps-519018604079875249 .\[\&_p\]\:after\:gp-whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-519018604079875249 .\[\&_p\]\:after\:gp-content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}</style>
+
+      
+      
+            <section
+              class="gp-mx-auto gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      pageContext id="gLup3cNIIW"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:100px;--pb:100px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#00000000;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gLup3cNIIW gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      pageContext label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g7l1pq95CF gp-relative gp-flex gp-flex-col"
+    >
+      
+      
+      
+    <div
+      pageContext parentTag="Col" id="gWJPffq4_U"
+        style="--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--pt:40px;--pl:40px;--pb:40px;--pr:40px;--cg:8px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 3fr) minmax(0, 3fr);--gtc-mobile:minmax(0, 12fr);--w:1300px;--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:#FEF3F1;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gWJPffq4_U gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full"
+    >
+    <div
+      pageContext label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gXnTMzP4eO gp-relative gp-flex gp-flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gI61UaVWor "
+        style="--ta:left;--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ff:var(--g-font-Golden-Plains---Demo, 'Golden Plains - Demo'), var(--g-font-heading, heading);--weight:400;--size:48px;--size-tablet:46px;--size-mobile:41px;--lh:130%;--lh-tablet:130%;--lh-mobile:130%;--c:#F39A8B;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggI61UaVWor_text }}</h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gr3V0sd1NL "
+        style="--ta:left;--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:4px;--pr:40px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--ff:var(--g-font-Lato, 'Lato'), var(--g-font-heading, heading);--size:31px;--size-tablet:41px;--size-mobile:36px;--lh:120%;--lh-tablet:120%;--lh-mobile:120%;--weight:bold;--c:var(--g-c-text-2, text-2);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggr3V0sd1NL_text }}</h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gF43pgWLJN "
+        style="--ta:left;--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:0px;--pr:40px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Lato, 'Lato'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:180%;--lh-tablet:180%;--lh-mobile:180%;--c:var(--g-c-text-1, text-1);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggF43pgWLJN_text }}</div>
+      </div>
+    </div>
+      <style
+        id="custom-css-gF43pgWLJN"
+      >.gF43pgWLJN {
+
+}
+.gF43pgWLJN p {
+
+}</style>
+    
+    <div
+      parentTag="Col"
+        class="gyY1F4Fv6W "
+        style="--ta:left;--mb:17px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object]"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+         
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-g-paragraph-1 gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:italic;--weight:bold;--c:#F39A8B;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggyY1F4Fv6W_text }}</div>
+      </div>
+    </div>
+      <style
+        id="custom-css-gyY1F4Fv6W"
+      >.gyY1F4Fv6W {
+
+}
+.gyY1F4Fv6W p {
+
+}</style>
+    
+  <gp-button style="">
+  <div
+    
+    style="--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    class=""
+  >
+    <style>
+    .gC8mi9Vssw.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      
+      border-bottom-left-radius: 999999px;
+      border-bottom-right-radius: 999999px;
+      border-top-left-radius: 999999px;
+      border-top-right-radius: 999999px;
+      
+    }
+
+    .gC8mi9Vssw:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="gC8mi9Vssw" aria-label="Visit the Wedding Shop"
+      
+      data-state="idle"
+      class="gC8mi9Vssw gp-button-base gp-rounded-none gp-max-w-full gp-relative gp-group gp-inline-flex gp-items-center gp-justify-center gp-no-underline gp-transition-colors gp-duration-300 disabled:gp-btn-disabled disabled:gp-opacity-30 disabled:gp-pointer-events-none gp-flex-row-reverse gp-text-g-text-3"
+      style="--hvr-bg:#A5D7D4;--bg:#F39A8B;--bblr:999999px;--bbrr:999999px;--btlr:999999px;--btrr:999999px;--shadow:none;--c:var(--g-c-text-3, text-3);--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:32px;--pr:32px;--pt:12px;--pb:12px;--tt:default;--ff:var(--g-font-Lato, 'Lato'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:180%;--lh-tablet:180%;--lh-mobile:180%"
+    >
+        <svg
+          class="gp-invisible gp-absolute gp-h-5 gp-w-5 group-data-[state=loading]:gp-animate-spin group-data-[state=loading]:gp-visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="gp-opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="gp-opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    <span
+        class="gp-inline-flex gp-shrink-0 gp-items-center gp-justify-center group-data-[state=loading]:gp-invisible gp-z-1 [&>svg]:!gp-h-[var(--height-desktop)] [&>svg]:!gp-w-auto tablet:[&>svg]:!gp-h-[var(--height-tablet)] mobile:[&>svg]:!gp-h-[var(--height-mobile)]"
+        style="--ml:8px;--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      ><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="508817595009335656">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M241.55,64.74A12,12,0,0,0,232,60H60.23L51.56,28.79A12,12,0,0,0,40,20H20a12,12,0,0,0,0,24H30.88l34.3,123.49a28.09,28.09,0,0,0,27,20.51H191a28.09,28.09,0,0,0,27-20.51l25.63-92.28A12,12,0,0,0,241.55,64.74ZM194.8,161.07A4,4,0,0,1,191,164H92.16a4,4,0,0,1-3.85-2.93L66.9,84H216.21ZM108,220a20,20,0,1,1-20-20A20,20,0,0,1,108,220Zm104,0a20,20,0,1,1-20-20A20,20,0,0,1,212,220Z" /></svg></span>
+      <span
+        class="gp-break-words group-data-[state=loading]:gp-invisible [&_p]:gp-whitespace-pre-line gp-z-1 gp-h-full gp-flex gp-items-center gp-overflow-hidden "
+        style="--tt:default"
+      >
+        {{ section.settings.ggC8mi9Vssw_label }}
+      </span>
+    </button>
+  </div>
+  </gp-button>
+
+      <style
+        id="custom-css-gC8mi9Vssw"
+      >button.gC8mi9Vssw {
+
+}</style>
+    
+    </div><div
+      pageContext label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="grGUh2S4lU gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="gp-group/image gNM1FYpLUQ"
+    style="--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--bottom:-120px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pos:relative;--bblr:200px;--bbrr:200px;--btlr:0px;--btrr:0px;--pr:10px;--ta:right"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--ta:right"
+      >
+        
+  {%- liquid
+    assign isFetchPriorityHigh = 'false'
+    
+      assign mediaIndex = 1
+      if forloop
+        assign mediaIndex = forloop.index
+      endif
+      assign sectionPreload = "false"
+
+      if section.settings.section_preload == 'true'
+        assign sectionPreload = "true"
+      endif
+      if sectionPreload == "true" and mediaIndex == 1
+        assign isFetchPriorityHigh = 'true'
+      endif
+  -%}
+  <picture style="border-radius: inherit" class="">
+    {%- if isFetchPriorityHigh == 'true' -%}
+      
+        
+        <img
+          
+          class="!gp-inline gp-h-full gp-max-w-full gp-flex"
+          src="{{ "gempages_517561839337341832-004a234d-0dfe-437b-ab8a-d426198ba7d3.jpg" | file_img_url: 'master' }}"
+          alt=""
+          fetchpriority="high"
+          style="--aspect:3/4;--aspect-tablet:3/4;--aspect-mobile:3/4;--objf:cover;--w:300px;--w-tablet:300px;--w-mobile:300px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;border-radius:inherit"
+        />
+    {%- else -%}
+      
+      
+      <img
+        
+        class="!gp-inline gp-h-full gp-max-w-full gp-flex gp_lazyload"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII="
+        data-src="{{ "gempages_517561839337341832-004a234d-0dfe-437b-ab8a-d426198ba7d3.jpg" | file_img_url: 'master' }}"
+        alt=""
+        style="--aspect:3/4;--aspect-tablet:3/4;--aspect-mobile:3/4;--objf:cover;--w:300px;--w-tablet:300px;--w-mobile:300px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;border-radius:inherit"
+      />
+    {%- endif -%}
+  </picture>
+      </div>
+  </div>
+      <style
+        id="custom-css-gNM1FYpLUQ"
+      >.gNM1FYpLUQ {
+
+}
+.gNM1FYpLUQ > figure > img {
+
+}</style>
+    
+    </div><div
+      pageContext label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gZHmnn92-T gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="gp-group/image gXdRv0R6su"
+    style="--animation:[object Object];--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pos:relative;--bblr:0px;--bbrr:0px;--btlr:200px;--btrr:200px;--pl:0px;--top:-120px;--ta:left"
+    >
+      <a
+        class="pointer-events-auto h-full"
+        href="/products/paris-wedding-day-package" target="_self" title
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        
+  {%- liquid
+    assign isFetchPriorityHigh = 'false'
+    
+      assign mediaIndex = 1
+      if forloop
+        assign mediaIndex = forloop.index
+      endif
+      assign sectionPreload = "false"
+
+      if section.settings.section_preload == 'true'
+        assign sectionPreload = "true"
+      endif
+      if sectionPreload == "true" and mediaIndex == 1
+        assign isFetchPriorityHigh = 'true'
+      endif
+  -%}
+  <picture style="border-radius: inherit" class="">
+    {%- if isFetchPriorityHigh == 'true' -%}
+      
+        
+        <img
+          
+          class="!gp-inline gp-h-full gp-max-w-full gp-flex"
+          src="{{ "gempages_517561839337341832-f0bc1961-d329-42dc-bb73-2c343af5a145.webp" | file_url }}"
+          alt=""
+          fetchpriority="high"
+          style="--aspect:3/4;--aspect-tablet:3/4;--aspect-mobile:3/4;--objf:cover;--w:300px;--w-tablet:300px;--w-mobile:300px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;border-radius:inherit"
+        />
+    {%- else -%}
+      
+      
+      <img
+        
+        class="!gp-inline gp-h-full gp-max-w-full gp-flex gp_lazyload"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII="
+        data-src="{{ "gempages_517561839337341832-f0bc1961-d329-42dc-bb73-2c343af5a145.webp" | file_url }}"
+        alt=""
+        style="--aspect:3/4;--aspect-tablet:3/4;--aspect-mobile:3/4;--objf:cover;--w:300px;--w-tablet:300px;--w-mobile:300px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;border-radius:inherit"
+      />
+    {%- endif -%}
+  </picture>
+      </a>
+  </div>
+      <style
+        id="custom-css-gXdRv0R6su"
+      >.gXdRv0R6su {
+
+}
+.gXdRv0R6su > figure > img {
+
+}</style>
+    
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+<style {% if section.settings.section_preload == "false" %} class="gps-link" type="text/disabled-css" {% endif %}>@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPHw.woff) format('woff');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+{% schema %}
+  {
+    "presets": [{ "name": "Section - Prod Shop Extra" }],
+    "name": "Section - Prod Shop Extra",
+    "tag": "section",
+    "class": "gps-519018604079875249 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/perfectpariswedding/apps/bold/app/shopify/edit?pageType=THEME_SECTION&editorId=519018604079875249)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"html","id":"ggI61UaVWor_text","label":"ggI61UaVWor_text","default":"Your Wedding Extras"},{"type":"html","id":"ggr3V0sd1NL_text","label":"ggr3V0sd1NL_text","default":"Customize your destination wedding to match your style and budget"},{"type":"html","id":"ggF43pgWLJN_text","label":"ggF43pgWLJN_text","default":"<p>When booking your wedding day package, you can choose to customize it with a range of upgrades and add-ons including:&nbsp;</p>"},{"type":"html","id":"ggyY1F4Fv6W_text","label":"ggyY1F4Fv6W_text","default":"<p><a href=\"prodcut\"><strong><u>Videography</u></strong></a> • Luxury &amp; classic cars • Champagne toast Wedding cake • Indoor wedding ceremony • Private rooftop ceremony with Eiffel Tower view • Live music • Ceremony live stream • On-site day-of co-ordinator</p>"},{"type":"html","id":"ggC8mi9Vssw_label","label":"ggC8mi9Vssw_label","default":"Visit the Wedding Shop"}],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

@@ -85,6 +85,46 @@
         "ggQOOLqkC1v_text": "<p>\"Claire found us an intimate spot for our ceremony overlooking the Eiffel Tower. We felt like we’d known Claire and Julien, the photographer, for years. We had lots of laughs and a few tears (happy ones). The photo shoot was amazing, like a private tour of Paris. We had the most magical day.”<\/p>",
         "ggk3PEd4X4i_text": "<p><span style=\"color:#000000;\"><strong>Katherine Thompson<\/strong><\/span> - 2023, Google Review<\/p>"
       }
+    },
+    "gp_global_section_518673077131805576_U9AW6W": {
+      "type": "gp-global-section-518673077131805576",
+      "settings": {
+        "section_preload": "true",
+        "ggaTjuYCW3T_label": "Eiffel Tower",
+        "ggCM5K7TCzQ_label": "Luxembourg Gardens",
+        "ggbBLN2O5G1_label": "The Louvre",
+        "ggK0jZ6mwcK_label": "Palais Royal",
+        "ggVhsCt2PkD_label": "Port Debilly"
+      }
+    },
+    "gp_global_section_518675359923700811_c3ELJ8": {
+      "type": "gp-global-section-518675359923700811",
+      "settings": {
+        "section_preload": "true",
+        "ggbdjKrfJp2_text": "So where will you say I do",
+        "ggWmqNZCrub_text": "Choose <span style=\"font-size:34px;\"><i>your<\/i><\/span> perfect Paris wedding ceremony location",
+        "gg2g7O8cX95_text": "<p>Exchange your vows against the stunning backdrop of the Eiffel Tower or choose from 18 other iconic Paris locations. We’ve curated these picture-perfect locations through years of experience and local knowledge. Indoor and outdoor venues available.<\/p>",
+        "ggbJsd00_nd_text": "The Eiffel Tower",
+        "ggs-QwZCK1b_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.<\/p>",
+        "ggkNLo4QRvf_label": "Discover Venue",
+        "gg8Rrr_y8At_text": "The Louvre",
+        "ggT3EAVQMdK_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.<\/p>",
+        "ggbk7H3pMgv_label": "Discover Venue",
+        "gglxc0T-Ouv_text": "Luxembourg Gardens",
+        "ggEe3FS-wt4_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.<\/p>",
+        "ggXAVNQaBMl_label": "Discover Venue",
+        "ggpXZK3ABGy_label": "Explore more locations here"
+      }
+    },
+    "gp_global_section_518678229565834022_Vbrrhm": {
+      "type": "gp-global-section-518678229565834022",
+      "settings": {
+        "section_preload": "true",
+        "gg7cM7Y7bjO_text": "It really is that easy",
+        "ggs2RgLw-g2_text": "Pack your <span style=\"font-size:26px;\"><strong>sense of adventure<\/strong><\/span>,  add <span style=\"font-size:31px;\"><i><strong>Paris<\/strong><\/i><\/span>  to your <span style=\"font-size:26px;\"><strong>love story<\/strong><\/span> and make <span style=\"font-size:26px;\"><strong>memories<\/strong><\/span> to last a lifetime - with <span style=\"font-size:26px;\"><strong>stunning photos<\/strong><\/span> to capture <br><span style=\"font-size:26px;\"><strong>the sweetest moments<\/strong><\/span>.",
+        "gghNRG3y88B_label": "Book your Perfect Paris wedding",
+        "ggUvSj4gLAR_label": "or reserve your date at no cost for 48 hours"
+      }
     }
   },
   "order": [
@@ -95,6 +135,9 @@
     "gp_global_section_517767606858417227_eNx6KQ",
     "gp_global_section_518619096003118155_86khEn",
     "gp_global_section_518624049979458635_BXFktV",
-    "gp_global_section_518631146792157990_NkkMzW"
+    "gp_global_section_518631146792157990_NkkMzW",
+    "gp_global_section_518673077131805576_U9AW6W",
+    "gp_global_section_518675359923700811_c3ELJ8",
+    "gp_global_section_518678229565834022_Vbrrhm"
   ]
 }

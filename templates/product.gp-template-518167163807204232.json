@@ -15,7 +15,7 @@
         "section_preload": "false",
         "ggSaeFb7uGn_text": "Destination <br>Weddings in Paris",
         "ggpmLTQe2y9_text": "Intimate<br>Weddings",
-        "ggsTKfHyhq7_text": "Elopements"
+        "ggsTKfHyhq7_text": "paris<br>Elopements"
       }
     },
     "gp_section_518193420334793510": {
@@ -33,7 +33,7 @@
     "gp_section_518246625970226056": {
       "type": "gp-section-518246625970226056",
       "settings": {
-        "section_preload": "false",
+        "section_preload": "true",
         "ggW1X6nWl1n_successMessage": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "ggW1X6nWl1n_errorMessage": "Can’t send email. Please try again later.",
         "ggUEhuqvUwy_placeholder": "Name",
@@ -46,7 +46,7 @@
     "gp_section_518242934563275939": {
       "type": "gp-section-518242934563275939",
       "settings": {
-        "section_preload": "false",
+        "section_preload": "true",
         "ggiAtNMFewH_text": "<p>\"The hair &amp; and make-up team, the flowers, the driver, the car, the wine, the officiant, the photographer, the park, the ducks who cheered us on and the Eiffel Tower in the background were the combination for an amazing and unforgettable day.\"<\/p>",
         "ggbzYsccvi1_text": "<p>The driver even helped with doing a Facebook Live so our US family could watch at 3am in the morning and we were able to dance to our wedding song. It was  very relaxing, enjoyable and stress-free the way a wedding should be for a couple.<\/p>",
         "gg1gYzR8nP8_text": "<p>Dolly Hollingsworth, 2023, Google review<\/p>"
@@ -54,53 +54,62 @@
     },
     "gp_section_518249787502363723": {
       "type": "gp-section-518249787502363723",
+      "disabled": true,
       "settings": {
-        "section_preload": "false",
+        "section_preload": "true",
         "ggWYj2pknRb_text": "Your Package Details",
         "gg09asBOnoN_text": "Explore exactly what’s included in your Paris wedding day package:"
       }
     },
-    "multicolumn_kCzbET": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_znGDMC": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>{{ product.metafields.custom.personal_wedding_planner | metafield_tag }}<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_jLmjFU": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_znGDMC",
-        "column_jLmjFU"
-      ],
+    "gp_global_section_519072797473899726_JFikdq": {
+      "type": "gp-global-section-519072797473899726",
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_preload": "true",
+        "ggMAGkMeGyW_text": "Personal wedding planner",
+        "ggFfm_kmKg8_text": "<p>Once you book your wedding day package, you’ll be put in contact with your super-organized English-speaking planner. As experts in both Paris and wedding planning, they’re dedicated to crafting a day that perfectly suits your individual style and preferences.<\/p>",
+        "ggWD0mV7RkW_text": "Outdoor symbolic ceremony with photographer",
+        "ggPDWi_cBEg_text": "<p>Choose the perfect outdoor location for your wedding ceremony from our handpicked list of 18 picture-perfect spots around Paris, including iconic landmarks like the Eiffel Tower, the Louvre and the Luxembourg Gardens. For elopements or small weddings with up to 15 guests. Includes a professional photographer.<\/p>",
+        "ggljONsnB2-_text": "Wedding officiant",
+        "gg7obXRuL_8_text": "<p>With your guidance, your English-speaking officiant crafts a heartfelt and emotional ceremony as you exchange your vows. Every word and sentiment is carefully chosen to reflect your unique love story, creating a memorable and meaningful experience.<\/p>",
+        "ggRoWcD4aRc_text": "Couples photo tour in central Paris",
+        "gg7sigazJSJ_text": "<p>After your ceremony, enjoy a fun two hours with your top-class wedding photographer and private chauffeur. In style and comfort, visit three to five iconic Paris backdrops like The Eiffel Tower, The Louvre and Pont Alexandre III, capturing around 120 stunning photos of your day.<\/p>",
+        "ggN6LGNV2yL_text": "Luxury wedding car and private chauffeur",
+        "ggI2N7O_MMX_text": "<p>Revel in the royal treatment with a private wedding car and chauffeur. You’ll be accompanied from your hotel to the ceremony, on your photo tour then dropped off at a central Paris location of your choice. The luxurious Mercedes E class is included or, for a vintage touch, upgrade to one of our classic French cars.<\/p>",
+        "ggyMfcOg-uF_text": "Bride’s hair and make-up",
+        "ggIjhI-jJmb_text": "<p>Prepare for your day in comfort as our hair and make-up artist comes to your hotel for a two-hour beauty session. During the planning phase, we ask you to complete a detailed questionnaire to capture your preferences and desired look. Rest assured, our skilled beauty experts are experienced at working with all hair and skin types, ensuring you look and feel radiant on the day.<\/p>",
+        "ggKPJ57cdCq_text": "Wedding bouquet and boutonniere",
+        "gg6S8-cta1G_text": "<p>Your stunning bouquet and matching boutonniere is full of the freshest seasonal flowers and meticulously crafted by our talented floral artisans. The design is inspired by photos you share with your planner before the big day, ensuring it perfectly captures your vision. Delivered straight to your hotel, it's a beautiful beginning to your special day.<\/p>",
+        "ggVfCafzWP5_text": "Restaurant dinner reservation",
+        "ggBH3RM09dC_text": "<p>End your day with a perfect dinner in a romantic setting. You’ll receive our curated list of the most romantic restaurants in Paris to help you choose the ideal spot. Your personal planner will take care of booking and confirming your reservation in advance.<br><span style=\"font-size:14px;\"><i>*Please note that while the package covers making a reservation for two, the dinner cost isn’t included.<\/i><\/span><\/p>",
+        "ggqPczbZlU1_text": " Ceremony book and commemorative certificate",
+        "ggYm48C8A2N_text": "<p>A beautiful ceremony book and certificate serve as special keepsakes of your wedding day.<\/p>",
+        "ggBswCRRUVA_text": "Day-of coordinator (remote)",
+        "ggzN2llzYGT_text": "<p>Your on-the-day coordinator operates remotely, ensuring your well-being and overseeing the seamless coordination of your wedding team so your day runs smoothly from start to finish.<\/p>"
+      }
+    },
+    "gp_global_section_519018604079875249_wwEPYz": {
+      "type": "gp-global-section-519018604079875249",
+      "settings": {
+        "section_preload": "true",
+        "ggI61UaVWor_text": "Your Wedding Extras",
+        "ggr3V0sd1NL_text": "Customize your destination wedding to match your style and budget",
+        "ggF43pgWLJN_text": "<p>When booking your wedding day package, you can choose to customize it with a range of upgrades and add-ons including: <\/p>",
+        "ggyY1F4Fv6W_text": "<p><a href=\"prodcut\"><strong><u>Videography<\/u><\/strong><\/a> • Luxury &amp; classic cars • Champagne toast Wedding cake • Indoor wedding ceremony • Private rooftop ceremony with Eiffel Tower view • Live music • Ceremony live stream • On-site day-of co-ordinator<\/p>",
+        "ggC8mi9Vssw_label": "Visit the Wedding Shop"
+      }
+    },
+    "gp_global_section_519019593230976016_tRmc6q": {
+      "type": "gp-global-section-519019593230976016",
+      "settings": {
+        "section_preload": "true",
+        "ggq96e0ygR2_text": "Little Love Notes",
+        "ggZnoaKM-xY_text": "From our Couples",
+        "ggREJxtGRnc_text": "<p>\"When we decided to book our wedding in Paris, it was difficult for us to fully trust a service in another country to make the arrangements. However, all of our fears vanished once we started dealing with Perfect Paris Wedding.\"<\/p>",
+        "gg1wStq7Oaf_text": "<p>\"We’ll never forget Henri, our charming chauffeur and his stunning vintage traction car - delightful! Julien, the (amazingly talented) photographer is the type of fella you want to keep in touch with, such a presence- such a present!  Our pastor, Michelle, quieted the nerves with her infectious humour and loving demeanour. Also, Katia’s hair and make-up talents came as such a bonus - stupendous! We were made to feel like royalty! <strong>We emphatically recommend Perfect Paris Wedding if you’re considering this unique and memorable experience.<\/strong>\"<\/p>",
+        "ggu6TlM9KRq_text": "<p>Marcia Van Treeck - <span style=\"color:#606060;\">2023, Google Review<\/span><\/p>",
+        "gg4Kdv7qDlT_text": "<p>\"Joleen, my make-up artist, listened to my preferences for make-up and hair and nailed it. She made me feel so beautiful and I also wanted to become her best friend!\"<\/p>",
+        "ggUgmqG2Zhf_text": "<p>\"I’d recommend Perfect Paris Wedding to everyone. From eloping to renewing your vows. <span style=\"color:#161616;\"><strong>Claire made this whole experience just the way we wanted it<\/strong><\/span>. We’re already planning our renewal in Paris in years to come and we’ll be repeat clients.\"<\/p>",
+        "ggivJdt0IHC_text": "<p>Jaime McCracken-Bowen - <span style=\"color:#606060;\">2023, Google Review<\/span><\/p>"
       }
     }
   },
@@ -111,6 +120,8 @@
     "gp_section_518246625970226056",
     "gp_section_518242934563275939",
     "gp_section_518249787502363723",
-    "multicolumn_kCzbET"
+    "gp_global_section_519072797473899726_JFikdq",
+    "gp_global_section_519018604079875249_wwEPYz",
+    "gp_global_section_519019593230976016_tRmc6q"
   ]
 }
